@@ -19,8 +19,9 @@ const ProfileCard = () => {
   };
 
   const socialItems = [
+    { id: 5, url: "#", name: "LinkedIn", icon: "fab fa-linkedin" },
     { id: 1, url: "#", name: "Facebook", icon: "fab fa-facebook" },
-    { id: 2, url: "#", name: "Pinterest", icon: "fab fa-pinterest" },
+    { id: 2, url: "#", name: "Twitter", icon: "fab fa-twitter" },
     { id: 3, url: "#", name: "Github", icon: "fab fa-github" },
     { id: 4, url: "#", name: "Youtube", icon: "fab fa-youtube" },
   ];
@@ -32,11 +33,10 @@ const ProfileCard = () => {
           <img src="assets/img/images/profile.png" alt="profile" />
         </div>
         <div className="text">
-          <h3 className="card-title">Cris Rayaan 👋</h3>
+          <h3 className="card-title">Salut, je suis Martin Dohou ! 👋</h3>
           <p>
-            A Passionate <span>Full Stack Developer</span> 🖥️ &amp;{" "}
-            <span>Product Designer</span> having <span>12 years</span> of
-            Experiences over 24+ Country Worldwide.
+          Développeur 🖥️  <span>Backend</span> & <span>DevOps</span>. 
+          Je code avec passion et rigueur pour donner vie à des projets les plus ambitieux et ceci depuis 2021.
           </p>
           <div className="common-button-groups">
             <a className="btn btn-call" href="#">
@@ -70,7 +70,7 @@ const ProfileCard = () => {
                   strokeLinejoin="round"
                 />
               </svg>
-              Book A call
+              WhatsApp
             </a>
             <button
               className={`btn btn-copy ${toggle ? "active" : ""}`}
@@ -98,7 +98,7 @@ const ProfileCard = () => {
                   strokeLinejoin="round"
                 />
               </svg>
-              Copy Email
+              Voici mon CV
             </button>
           </div>
           <div className="social-media-icon">

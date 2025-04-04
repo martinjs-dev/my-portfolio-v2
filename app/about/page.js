@@ -6,13 +6,14 @@ import WorkTogether from "@/components/WorkTogether";
 import BentoFolioLayout from "@/layout/BentoFolioLayout";
 const page = () => {
   const counterItems = [
-    { id: 1, title: "Year of Experience", value: 40 },
-    { id: 2, title: "Project Completed", value: 86 },
-    { id: 3, title: "Happy Client", value: 72 },
+    { id: 1, title: "Ans d'expérience", value: 4 },
+    { id: 2, title: "Projets & Intervention", value: 86 },
+    { id: 3, title: "Clients Heureux", value: 72 },,
+    { id: 3, title: "Clients Heureux", value: 72 },
   ];
   const about = {
-    name: "Cris Rayaan",
-    bio: " A Passionate <b>Full Stack Developer</b> 🖥️ &amp; <b>Product Designer</b> having <b>12 years </b> of Experiences over 24+ Country Worldwide.",
+    name: "Martin Dohou",
+    bio: "Je suis Martin Dohou, développeur fullstack spécialisé en solutions logicielles métier, je combine expertise technique et vision d'ensemble pour comprendre vos besoins métiers et vous proposer des solutions techniques adéquates. </p><br><p>Mon parcours en sciences de l'ingénieur et en informatique me permet d'analyser vos besoins avec précision et d'y répondre par des solutions sur mesure, évolutives et sécurisées.</p>",
   };
 
   return (
@@ -20,29 +21,36 @@ const page = () => {
       <div className="col-xl-8">
         <div className="card content-box-card">
           <div className="card-body">
-            <div className="top-info">
-              <div className="text">
+            <div className="top-info" style={{ marginBottom: "0px" }}>
+              
+               <div className="text">
                 <h1 className="main-title">
-                  Hi, This Is <span>{about.name}</span> 👋
+                  Bonjour et bienvenue dans <span>mon univers</span> 👋
                 </h1>
-                <p dangerouslySetInnerHTML={{ __html: about.bio }}></p>
               </div>
               <div className="available-btn">
                 <span>
-                  <i className="fas fa-circle" /> Available For Hire
+                  <i className="fas fa-circle" /> Disponible pour discuter
                 </span>
               </div>
             </div>
+
+            <div className="top-info">
+              <div className="textdescription">
+                <p dangerouslySetInnerHTML={{ __html: about.bio }}></p>
+              </div>
+            </div>
+
             <div className="counter-area">
               <div className="counter">
                 {counterItems.map((item) => (
                   <div className="counter-item" key={item.id}>
-                    <h3 className="number">{item.value}+</h3>
+                    <h3 className="number">+{item.value}</h3>
                     <p className="subtitle">{item.title}</p>
                   </div>
                 ))}
               </div>
-              <div className="circle-area">
+              {/* <div className="circle-area">
                 <div className="circle-text">
                   <img
                     className="circle-image"
@@ -79,7 +87,7 @@ const page = () => {
                     </svg>
                   </span>
                 </div>
-              </div>
+              </div> */}
             </div>
             <Brands />
             <Testimonial />

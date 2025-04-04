@@ -811,6 +811,13 @@ p {
   display: flex;
   gap: 40px;
   justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.content-box-card .top-info-description {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
   margin-bottom: 48px;
 }
 
