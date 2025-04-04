@@ -973,7 +973,7 @@ p {
 }
 
 .profile-card .image img {
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 .profile-card .text {
@@ -1361,6 +1361,13 @@ p {
 }
 
 .content-box-card .top-info {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.content-box-card .top-info-description {
   display: flex;
   gap: 40px;
   justify-content: space-between;

@@ -13,7 +13,7 @@ const page = () => {
   ];
   const about = {
     name: "Martin Dohou",
-    bio: "Je suis Martin Dohou, développeur fullstack spécialisé en solutions logicielles métier, je combine expertise technique et vision d'ensemble pour comprendre vos besoins métiers et vous proposer des solutions techniques adéquates. </p><br><p>Mon parcours en sciences de l'ingénieur et en informatique me permet d'analyser vos besoins avec précision et d'y répondre par des solutions sur mesure, évolutives et sécurisées.</p>",
+    bio: "Je suis Martin Dohou, développeur fullstack spécialisé en <b>solutions</b> logicielles <b>métier</b>, je combine expertise technique et vision d'ensemble pour comprendre vos besoins métiers et vous proposer des solutions techniques adéquates. </p><br><p>Aujourd'hui en <b>Master Cybersécurité</b> & <b>Cloud Computing</b> à <b>Epitech</b>, mon parcours en sciences de l'ingénieur et en informatique par la suite me permet d'analyser vos besoins avec précision et d'y répondre par des solutions sur mesure, évolutives et sécurisées.</p>",
   };
 
   return (
@@ -25,7 +25,7 @@ const page = () => {
               
                <div className="text">
                 <h1 className="main-title">
-                  Bonjour et bienvenue dans <span>mon univers</span> 👋
+                  Bonjour  👋 et bienvenue dans <span>mon univers</span>..
                 </h1>
               </div>
               <div className="available-btn">

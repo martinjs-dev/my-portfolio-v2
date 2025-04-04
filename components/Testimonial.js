@@ -5,7 +5,7 @@ import Slider from "react-slick";
 const Testimonial = () => {
   return (
     <div className="client-feedback">
-      <h2 className="main-common-title">Trusted By 1200+ Clients</h2>
+      <h2 className="main-common-title">Mes +200 Clients en parlent..</h2>
       <Slider
         {...sliderProps.testimonialSlider}
         className="row client-feedback-slider"

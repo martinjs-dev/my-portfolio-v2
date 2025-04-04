@@ -30,7 +30,7 @@ const ProfileCard = () => {
     <div className="card profile-card">
       <div className="card-body">
         <div className="image text-center">
-          <img src="assets/img/images/profile.png" alt="profile" />
+          <img src="assets/img/images/profile5.png" alt="profile" />
         </div>
         <div className="text">
           <h3 className="card-title">Salut, je suis Martin Dohou ! 👋</h3>

@@ -18,11 +18,11 @@ const Brands = () => {
     { id: 16, icon: "assets/img/icons/escalecrossfit.png", name: "Escale Cross Fit", url: "https://escalecrossfit.com/" },
     { id: 16, icon: "assets/img/icons/e-connex-web-marketing.png", name: "e-connex Web Marketing", url: "https://e-connex-web-marketing.tech/" },
     { id: 16, icon: "assets/img/icons/awinz.png", name: "Awinz MarketPlace", url: "https://awinz.net/" },
-    { id: 16, icon: "assets/img/icons/papilles-sans-gluten.png", name: "Papilles Sans Gluten", url: "https://papillesansgluten.com/" },
+    { id: 16, icon: "assets/img/icons/edusign1.png", name: "EduSign", url: "https://edusign.com/" },
     { id: 16, icon: "assets/img/icons/transition-turquoise.png", name: "Transition Turquoise", url: "https://transition-turquoise.fr/" },
     { id: 16, icon: "assets/img/icons/ekfacades.png", name: "EK Façades", url: "https://ekfacades-toulouse.fr/" },
     { id: 16, icon: "assets/img/icons/technostatgroup.png", name: "Techno Stat Group", url: "https://technostatgroup.com/" },
-    { id: 16, icon: "assets/img/icons/mieldumonde.png", name: "Miel du Monde", url: "https://mieldumondefr.com/" },
+    { id: 16, icon: "assets/img/icons/papilles-sans-gluten.png", name: "Miel du Monde", url: "https://mieldumondefr.com/" },
     { id: 16, icon: "assets/img/icons/lokapart.png", name: "Lokapart", url: "https://lokapart.com/" },
   ];
   return (
