@@ -11,8 +11,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Martin_JS Porfolio - Bootstrap Personal Portfolio React NextJs Template",
-  description: "Bootstrap Personal Portfolio React NextJs Template",
+  title: "Martin Dohou - Porfolio personnel : Compétences et Réalisations",
+  description: "Salut, 👋 je suis Martin Dohou, développeur 🖥️ Backend & DevOps. Je code avec passion et rigueur pour donner vie à vos projets les plus ambitieux et ceci depuis 2021.",
 };
 
 export default function RootLayout({ children }) {
