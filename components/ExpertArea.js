@@ -1,16 +1,16 @@
 const ExpertArea = () => {
   const expertItems = [
-    { id: 1, icon: "assets/img/icons/figma.svg", name: "Figma" },
-    { id: 2, icon: "assets/img/icons/notion.svg", name: "Notion" },
-    { id: 3, icon: "assets/img/icons/mico.svg", name: "Miro" },
-    { id: 4, icon: "assets/img/icons/framer.svg", name: "Framer" },
-    { id: 5, icon: "assets/img/icons/webflow.svg", name: "Webflow" },
-    { id: 6, icon: "assets/img/icons/zeplin.svg", name: "Zeplin" },
+    { id: 1, icon: "assets/img/icons/figma.svg", name: "Node.js" },
+    { id: 2, icon: "assets/img/icons/notion.svg", name: "Django" },
+    { id: 5, icon: "assets/img/icons/webflow.svg", name: "PHP/Laravel" },
+    { id: 4, icon: "assets/img/icons/framer.svg", name: "Docker" },
+    { id: 6, icon: "assets/img/icons/zeplin.svg", name: "Cybersécurité" },
+    { id: 3, icon: "assets/img/icons/mico.svg", name: "Méthode Agile" },
   ];
   return (
     <div className="card expertise-card">
       <div className="card-body">
-        <h3 className="card-title">My Expert Area</h3>
+        <h3 className="card-title">Ma Stack Technique</h3>
         <div className="expertise-main mt-24">
           <div className="row g-3">
             {expertItems.map((item) => (

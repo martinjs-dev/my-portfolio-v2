@@ -15,7 +15,7 @@ const Faq = () => {
 
   return (
     <div className="frequently-asked-questions">
-      <h2 className="main-common-title">Frequently Asked Questions</h2>
+      <h2 className="main-common-title">Questions Fréquemment Posées</h2>
       <div className="frequently-asked-questions-main">
         <Accordion className="accordion" defaultActiveKey={active}>
           {faqItems.map((item) => (

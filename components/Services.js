@@ -3,14 +3,14 @@ import ServiceItem from "./ServiceItem";
 
 const Services = () => {
   const serviceItems = [
-    { id: 1, icon: "/assets/img/icons/ui-ux.svg", title: "UI UX Design" },
-    { id: 2, icon: "/assets/img/icons/app.svg", title: "Mobile App" },
+    { id: 1, icon: "/assets/img/icons/ui-ux.svg", title: "Application Web" },
+    { id: 2, icon: "/assets/img/icons/app.svg", title: "Application Mobile" },
     {
       id: 3,
       icon: "/assets/img/icons/prd-design.svg",
-      title: "Product Design",
+      title: "Architecture Logicielle",
     },
-    { id: 4, icon: "/assets/img/icons/branding.svg", title: "Branding" },
+    { id: 4, icon: "/assets/img/icons/branding.svg", title: "CyberSécurité" },
   ];
   return (
     <div className="services-area mt-24">
@@ -19,10 +19,10 @@ const Services = () => {
           <div className="card services-card">
             <div className="card-body">
               <h3 className="card-title">
-                Services I Offered
+                Ce Que Je Propose
                 <Link className="link-btn" href="/services">
                   {" "}
-                  See All Services
+                  Voir tous les services
                   <svg
                     className="icon"
                     width={20}
@@ -75,12 +75,12 @@ const Services = () => {
                 </div>
               </div>
               <h3 className="card-title">
-                Let's👋
-                <span className="d-block">Work Together</span>
+                Votre Projet, 👋
+                <span className="d-block">On En Discutes ?</span>
               </h3>
               <Link className="link-btn" href="/contact">
                 {" "}
-                Let's Talk
+                Contactez-moi
                 <svg
                   className="icon"
                   width={20}

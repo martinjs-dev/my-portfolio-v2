@@ -17,9 +17,9 @@ const Projects = () => {
     <div className="card card-projects">
       <div className="card-body">
         <h3 className="card-title">
-          Recent Projects{" "}
+          Projets Récents{" "}
           <Link className="link-btn" href="/portfolio">
-            All Projects
+            Voir les projets
             <svg
               className="icon"
               width={20}

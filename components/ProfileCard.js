@@ -33,9 +33,9 @@ const ProfileCard = () => {
           <img src="assets/img/images/profile5.png" alt="profile" />
         </div>
         <div className="text">
-          <h3 className="card-title">Salut, je suis Martin Dohou ! 👋</h3>
+          <h3 className="card-title">Bonjour et Bienvenue 👋</h3>
           <p>
-          Développeur 🖥️  <span>Backend</span> & <span>DevOps</span>. 
+          Je suis Martin Dohou, développeur 🖥️  <span>Backend</span> & <span>DevOps</span>. 
           Je code avec passion et rigueur pour donner vie à des projets les plus ambitieux et ceci depuis 2021.
           </p>
           <div className="common-button-groups">
