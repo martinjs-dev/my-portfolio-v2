@@ -28,7 +28,7 @@ const Brands = () => {
   return (
     <div className="working-with-area">
       <h2 className="main-common-title">
-        Ils M'ont Fait Confiance ! ✨ En Afrique & en Europe
+        Ils M'ont Fait Confiance ! ✨
       </h2>
       <div className="working-with-main">
         {brandItems.map((item) => (

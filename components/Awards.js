@@ -2,41 +2,58 @@ const Awards = () => {
   const awardItems = [
     {
       id: 1,
-      icon: "/assets/img/icons/adobe.svg",
-      title: "Adobe Design Contest",
-      date: "2022 - 2023",
-      award: "Runner Up",
+      icon: "/assets/img/favicon.png",
+      title: "Master Cybersécurité & Cloud Computing",
+      // date: "2024 - Aujourd'hui",
+      award: "2024 - Aujourd'hui",
+      school: "Epitech",
+      url: "#",
     },
     {
       id: 2,
-      icon: "/assets/img/icons/dribbble.svg",
-      title: "Dribbble Design Contest",
-      date: "2022 - 2023",
-      award: "Gold Winner",
+      icon: "/assets/img/favicon.png",
+      title: "Coding Academy",   
+      // date: "2022 - 2023",
+      award: "03/24 - 09/24",
+      school: "Epitech",
+      url: "#",
     },
     {
       id: 3,
-      icon: "/assets/img/icons/awwwards.png",
-      title: "Awwwards Nominee",
-      date: "2022 - 2023",
-      award: "Runner Up",
+      icon: "/assets/img/favicon.png",
+      title: "Prépa Cycle Ingénieur",
+      // date: "2019 - 2022",
+      award: "2019 - 2022",
+      school: "EPAC / UAC",
+      url: "#",
     },
     {
       id: 4,
-      icon: "/assets/img/icons/behance.svg",
-      title: "Behance Design Contest",
-      date: "2022 - 2023",
-      award: "Gold Winner",
+      icon: "/assets/img/favicon.png",
+      title: "DTI / BTS - Génie Civil",
+      // date: "2016 - 2019",
+      award: "2016 - 2019",
+      school: "LT Natitingou",
+      url: "https://www.ensup.bj/",
+    },
+    {
+      id: 4,
+      icon: "/assets/img/favicon.png",
+      title: "Baccalauréat F4",
+      // date: "2016 - 2019",
+      award: "2016 - 2019",
+      school: "LT Natitingou",
+      url: "#",
     },
   ];
   return (
     <div className="awards-recognitions">
-      <h2 className="main-common-title">Awards and Recognitions</h2>
+      <h2 className="main-common-title">Diplômes & Certifications  ✨ </h2>
       <div className="awards-recognitions-main">
         <ul className="list-unstyled">
           {awardItems.map((item) => (
             <li key={item.id}>
-              <a href="#" className="d-block w-100" key={item.id}>
+              <a href={item.url} className="d-block w-100" key={item.id}>
                 <div className="awards-item">
                   <div className="award-name">
                     <div className="icon">
@@ -81,7 +98,7 @@ const Awards = () => {
                   </div>
                   <div className="project-btn">
                     <span>
-                      View Project
+                    {item.school}
                       <svg
                         className="arrow-up"
                         width={14}

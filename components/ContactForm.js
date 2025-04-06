@@ -71,7 +71,7 @@ const ContactForm = () => {
           <div className="row gx-3">
             <div className="col-md-6">
               <div className="mb-4">
-                <label className="form-label">Name</label>
+                <label className="form-label">Nom complet</label>
                 <input
                   name="name"
                   onChange={(e) => onChange(e)}
@@ -79,7 +79,7 @@ const ContactForm = () => {
                   required=""
                   type="text"
                   className="form-control shadow-none"
-                  placeholder="Enter your name"
+                  placeholder="Entrez votre nom.."
                 />
               </div>
             </div>
@@ -93,7 +93,7 @@ const ContactForm = () => {
                   required=""
                   type="email"
                   className="form-control shadow-none"
-                  placeholder="Enter your email"
+                  placeholder="Entrez votre email.."
                 />
               </div>
             </div>
@@ -107,47 +107,50 @@ const ContactForm = () => {
                   required=""
                   type="text"
                   className="form-control shadow-none"
-                  placeholder="Subject"
+                  placeholder="Objet de votre message.."
                 />
               </div>
             </div>
             <div className="col-md-6">
               <div className="mb-4">
-                <label className="form-label">Budget</label>
+                <label className="form-label">Votre Budget</label>
                 <select
                   name="budget"
                   onChange={(e) => onChange(e)}
                   value={budget}
                   required=""
                   className="form-select shadow-none"
-                  defaultValue={"select"}
+                  defaultValue={"500€ - 1.500€"}
                 >
                   <option disabled={true} value={"select"}>
-                    Select budget...
+                    Selectionnez un budget...
                   </option>
-                  <option value="$5000">$5000</option>
-                  <option value="$5000 - $1000">$5000 - $10000</option>
-                  <option value="$10000 - $2000">$10000 - $20000</option>
-                  <option value="$20000">$20000+</option>
+                  <option value="500€">500€</option>
+                  <option value="500€ - 1.500€" >500€ - 1.500€</option>
+                  <option value="1.500€ - 3.000€">1.500€ - 3.000€</option>
+                  <option value="3.000€ - 5.000€">3.000€ - 5.000€</option>
+                  <option value="5.000€ - 10.000€">5.000€ - 10.000€</option>
+                  <option value="10.000€ - 20.000€">10.000€ - 20.000€</option>
+                  <option value="+20.000€">+ 20.000€</option>
                 </select>
               </div>
             </div>
             <div className="col-md-12">
               <div className="mb-4">
-                <label className="form-label">Comment</label>
+                <label className="form-label">Votre message</label>
                 <textarea
                   name="message"
                   onChange={(e) => onChange(e)}
                   value={message}
                   className="form-control shadow-none"
-                  rows={4}
-                  placeholder="Type details about your inquiry"
+                  rows={5}
+                  placeholder="Donnez des détails de votre projet ici..."
                 />
               </div>
             </div>
             <div className="col-md-12">
               <button className="submit-btn" type="submit">
-                Send Message
+                Envoyez votre message
                 <svg
                   className="icon"
                   width={20}

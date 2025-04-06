@@ -40,7 +40,7 @@ const EmbedPopup_ = ({ close, videoID }) => {
               )}
             </div>
           </div>
-          <div className="mfp-preloader">Loading...</div>
+          <div className="mfp-preloader">Chargement...</div>
         </div>
       </div>
     </Fragment>
