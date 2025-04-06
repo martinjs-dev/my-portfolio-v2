@@ -33,13 +33,14 @@ const ContactForm = () => {
     } else {
       emailjs
         .send(
-          "service_gsps4gw", // service id
-          "template_evezi69", // template id
+          "service_v2cjcyy", // service id
+          "template_vvdqtjg", // template id
           mailData,
-          "Q3pccdLZhU-mZT7tQ" // public api
+          "AWLYNYojc0Vh8l9WQ" // public api
         )
         .then(
           (response) => {
+            console.log("SUCCESS!", response.status, response.text);
             setError(false);
             clearError();
             setFieldError(false);
